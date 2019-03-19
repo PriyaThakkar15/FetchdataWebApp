@@ -1,23 +1,15 @@
 import React, {Component} from 'react';
-import NavBar from '../include/navbar';
-import Footer from '../include/footer';
-import Home from '../pages/Home';
-
-import '../App.css';
-
+import Header from '../include/header.js';
+import './App.css'
+import Footer from "../include/footer";
 
 class App extends Component {
     render() {
         return (
-            <React.Fragment>
-                <NavBar/>
-                <main className="container-fluid p-5">
-                <Home />
-
-
-                </main>
+            <div>
+                <Header/>
                 <Footer/>
-            </React.Fragment>
+            </div>
         );
     }
 }

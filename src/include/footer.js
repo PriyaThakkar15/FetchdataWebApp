@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class Footer extends Component {
     render() {
         return (
-            <div className="card text-center bg-dark ">
+            <div className="card text-center bg-dark">
                 <div className="card-body">
                     <ul>
                         <a href="#">
